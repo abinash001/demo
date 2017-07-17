@@ -47,6 +47,8 @@ public class RhbTest {
 		Assert.assertTrue(false);
 		driver.findElementByXPath("//button[@class='btn btn-menu-toggle'][@id='btn-menu-toggle']").isDisplayed();
 		System.out.println("Application Launched Successfully");
+		System.out.println("Application Launched Successfully");
+
 	}
 
 	@Test(priority = 2)
